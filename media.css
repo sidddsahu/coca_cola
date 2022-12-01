@@ -1,0 +1,82 @@
+@media(max-width: 500px) {
+
+    nav {
+        height: 7vh;
+    }
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    #main {
+        overflow-x: hidden;
+    }
+
+
+    nav .logo li {
+        display: none;
+    }
+
+    span {
+        display: initial;
+    }
+
+    i {
+        font-size: 1.5rem;
+    }
+
+    span i {
+        font-size: 1.5rem;
+    }
+
+    #main .container {
+        height: 120vh;
+        width: 80vw;
+    }
+
+    #main {
+        height: 130vh;
+    }
+
+    .main-box {
+        height: 110vh;
+        /* width: 80vw; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left {
+        height: 70vh;
+        height: 60vh;
+        width: 80vw;
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .left h1 {
+        font: 500 1.5rem "roboto";
+    }
+
+    .left .items {
+        height: 5vh;
+        width: 75vw;
+        margin-bottom: 2vmax;
+    }
+
+
+    .left p {
+        font: 400 .8rem "roboto";
+    }
+
+
+    .right {
+        margin-top: 2vmax;
+        /* height: 70vh; */
+        height: 60vh;
+        width: 80vw;
+    }
+
+}

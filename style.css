@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+
+#main {
+    overflow-x: hidden;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#main .container {
+    box-shadow: 5px 5px 10px rgb(81, 81, 81);
+    background-image: url(https://www.logolynx.com/images/logolynx/4a/4a3e52b81c53ef2b75a50539617b4d27.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 70vw;
+    background-color: red;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.drink::after {
+    line-height: -0px;
+    display: flex;
+    flex-direction: column;
+    content: "_____";
+    text-decoration: underline;
+    color: red;
+}
+
+.logo li {
+    margin: 0 1.5vmax;
+    font: 500 .8rem "roboto";
+}
+
+nav {
+    height: 10vh;
+    background-color: #fff;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+
+ul i {
+    margin-left: 1.2vmax;
+}
+
+.main-box {
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+}
+
+.left {
+    padding: 20px;
+    padding-bottom: 0;
+    height: 70vh;
+    width: 35vw;
+    background-color: #fff;
+}
+
+.left h1 {
+    margin-bottom: 2vmax;
+    margin-left: 2vmax;
+    font: 500 2rem "roboto";
+}
+
+.left p {
+    margin-left: 2vmax;
+    font: 400 .9rem "roboto";
+    margin-bottom: 1vmax;
+}
+
+.left .items {
+    display: flex;
+    justify-content: flex-end;
+    width: 32vw;
+    align-items: flex-end;
+    /* background-color: aqua; */
+    height: 13vh;
+}
+
+span{
+    display: none;
+}
+
+.left .items i {
+    margin: 0 .5vmax;
+    font-size: 1.3rem;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px rgb(91, 91, 91);
+}
+
+.ri-facebook-fill {
+    color: rgb(34, 83, 232);
+}
+
+.ri-whatsapp-line {
+    color: green;
+}
+
+.ri-twitter-line {
+    color: royalblue;
+}
+
+.left button {
+    margin-left: 2vmax;
+    margin-top: 2vmax;
+    padding: .7vmax 1.8vmax;
+    color: #fff;
+    font-weight: 500;
+    background-color: #FE0000;
+    border: none;
+}
+
+.right {
+    position: relative;
+    height: 70vh;
+    width: 35vw;
+    /* background-color: purple; */
+    background-image: url(coke-glass-bottle-png-vector-coca-cola-cans-transparent-11563242311toxwyoqe0h-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.right img {
+    width: 60%;
+    height: 100%;
+
+}
